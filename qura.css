@@ -1,0 +1,39 @@
+/* descndent tag */
+p a{
+    color: red;
+    background-color: rgb(17, 231, 203);
+}
+/* slibing */
+p+h3{
+    text-decoration: underline;
+}
+/* attribut selector */
+
+input[type="text"]{
+    color: brown;
+}
+input[type="password"]{
+    color: rgb(110, 30, 214);
+}
+input[type]{
+    background-color: cadetblue;
+}
+button:hover{
+    background-color: greenyellow;
+    color: green;
+
+
+}
+h3:hover{
+    text-decoration: overline;
+}
+button:active{
+    background-color: blue;
+}
+p:hover{
+    text-decoration: underline;
+color: blueviolet;
+}
+h1::first-letter{
+    color:rebeccapurple;
+}
